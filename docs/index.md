@@ -1,17 +1,19 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# D&D Campaign Reference
 
-## Commands
+Welcome to the campaign reference site! Here you'll find everything you need to keep track of the story, characters, lore, and more for our Dungeons & Dragons adventure.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Quick Links
 
-## Project layout
+- [Campaign Reference](CampaignReference.md)
+- [Locations](Locations.md)
+- [Characters](Characters.md)
+- [Important NPCs](ImportantNPCs.md)
+- [Lore Books](LoreBooks.md)
+- [House Rules](HouseRules.md)
+- [Organizations](Organizations.md)
+- [Session Notes](SessionNotes.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+_Use the navigation menu to explore each section in detail. Happy adventuring!_
