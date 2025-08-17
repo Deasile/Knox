@@ -1,0 +1,11 @@
+site_name: D&D Campaign Reference
+
+nav:
+  - Home: index.md
+  - Campaign Reference: CampaignReference.md
+  - Locations: Locations.md
+  - Characters: Characters.md
+  - Lore Books: LoreBooks.md
+  - House Rules: HouseRules.md
+  - Organizations: Organizations.md
+  - Session Notes: SessionNotes.md
