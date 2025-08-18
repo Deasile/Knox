@@ -1,32 +1,115 @@
-# Notable NPCs & Player Characters
 
+# Player Characters & Notable NPCs
+#
 ## Player Characters
+## Important NPCs
+<h2 class="hidden-heading"><a href="ImportantNPCs/">Important NPCs</a></h2>
 
-[Biggus Menethil](Biggus-Menethil.md)  
-- Played by: Mike  
-- Species: Human (Variant)  
-- Class: Ranger (lvl) / Rogue (lvl)  
-- Background: Rune Carver
 
-[Feren Dax](Feren-Dax.md)  
-- Played by: Will  
-- Species: Tiefling  
-- Class: Warlock (lvl) / Fighter (lvl)  
-- Background: Criminal
 
-[Milicia Valen](Milicia-Valen.md)  
-- Played by: Duwies  
-- Species: Half-Orc  
-- Class: Paladin (lvl) / Cleric (lvl)  
-- Background: Gate Warden (dual devotion: Shaundakul & Gruumsh)
 
-[Yo](Yo.md)  
-- Played by: Ryan  
-- Species: Halfling (Stout)  
-- Class: Druid (lvl) / Fighter (lvl)  
-- Background: Folk Hero
 
-[See Important NPCs](ImportantNPCs.md)
+
+
+
+<table style="border-collapse:collapse; border-spacing:0; width:100%; padding:0; margin:0;">
+  <tr style="vertical-align:top; height:100%; padding:0; margin:0;">
+    <!-- Biggus -->
+  <td style="width:0%; padding:0; margin:0; height:100%;">
+  <table style="border-collapse:collapse; border-spacing:0; width:100%; height:100%; padding:0; margin:0;">
+        <tr>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <img src="../images/Biggus.png" alt="Biggus Menethil" width="192" height="192" style="display:block; object-fit:cover;"/>
+          </td>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <strong>Biggus Menethil</strong><br>
+            <ul style="margin:0 10 0 24px; padding:0 0 0 24px;">
+              <li>Played by: Mike</li>
+              <li>Species: Human (Variant)</li>
+              <li>Class(s): Ranger (lvl) / Rogue (lvl)</li>
+              <li>Background: Rune Carver</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <!-- Feren -->
+  <td style="width:50%; padding:0; margin:0; height:100%;">
+  <table style="border-collapse:collapse; border-spacing:0; width:100%; height:100%; padding:0; margin:0;">
+        <tr>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <img src="../images/Feren-Dax.png" alt="Feren Dax" width="192" height="192" style="display:block; object-fit:cover;"/>
+          </td>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <strong>Feren Dax</strong><br>
+            <ul style="margin:0 10 0 24px; padding:0 0 0 24px;">
+              <li>Played by: Will</li>
+              <li>Species: Tiefling</li>
+              <li>Class(s): Warlock (lvl) / Fighter (lvl)</li>
+              <li>Background: Criminal</li>
+            </ul>
+          </td>
+      </table>
+    </td>
+  </tr>
+
+
+  <tr style="vertical-align:top; height:100%;">
+    <!-- Milicia -->
+  <td style="width:50%; padding:0; margin:0; height:100%;">
+  <table style="border-collapse:collapse; border-spacing:0; width:100%; height:100%; padding:0; margin:0;">
+        <tr>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <img src="../images/Milicia.png" alt="Milicia Valen" width="192" height="192" style="display:block; object-fit:cover;"/>
+          </td>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <strong>Milicia Valen</strong><br>
+            <ul style="margin:0 10 0 24px; padding:0 0 0 24px;">
+              <li>Played by: Duwies</li>
+              <li>Species:  Half-Orc</li>
+              <li>Class(s): Paladin (lvl) / Cleric (lvl)</li>
+              <li>Background: Gate Warden</li>
+              <li>Dual devotion:
+                <ul style="margin:0 10 0 24px; padding:0 0 0 24px;">
+                  <li>Shaundakul</li>
+                  <li>Gruumsh</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <!-- Yo -->
+  <td style="width:50%; padding:0; margin:0; height:100%;">
+  <table style="border-collapse:collapse; border-spacing:0; width:100%; height:100%; padding:0; margin:0;">
+        <tr>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <img src="../images/Yo.png" alt="Yo" width="192" height="192" style="display:block; object-fit:cover;"/>
+          </td>
+          <td style="vertical-align:top; padding:0; margin:0;">
+            <strong>Yo</strong><br>
+            <ul style="margin:0 10 0 24px; padding:0 0 0 24px;">
+              <li>Played by: Ryan</li>
+              <li>Species: Halfling (Stout)</li>
+              <li>Class(s): Druid (lvl) / Fighter (lvl)</li>
+              <li>Background: Folk Hero</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
 
 ## Family Trees & Lineages
 - Valen Family (Dimension Caretakers, rules, history)

@@ -1,5 +1,4 @@
 site_name: D&D Campaign Reference
-
 nav:
   - Home: index.md
   - Campaign Reference: CampaignReference.md
@@ -11,3 +10,6 @@ nav:
   - Organizations: Organizations.md
   - Session Notes: SessionNotes.md
   - Test Page: TestPage.md
+
+extra_css:
+  - stylesheets/extra.css
