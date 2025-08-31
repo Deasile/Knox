@@ -1,0 +1,61 @@
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore environment and config files
+.env
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore node and build output
+node_modules/
+dist/
+build/
+
+# Ignore resource folders and file types
+assets/images/
+assets/icons/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore documentation and story folders (customize as needed)
+/docs/
+/Story/
+/Character sheets/
+/ChatExtract/
+/_Archive/
+/.snapshots/
+/xfr/
+
+# Ignore workflow and safety files
+DATA_SAFETY_AND_GIT_WORKFLOW.md
+
+# Do not ignore .gitignore itself
+# .gitignore
+
+# Ignore everything by default
+/*
+
+# But do not ignore the .gitignore file itself
+!.gitignore
+
+# Do not ignore the minimal web folder and its contents
+!A_Repo_Knox_Push/
+!A_Repo_Knox_Push/**
+
+# Ignore all index.html files by default
+index.html
+
+# Do not ignore index.html in A_Repo_Knox_Push
+!A_Repo_Knox_Push/index.html
