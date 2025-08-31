@@ -1,0 +1,6 @@
+"Please push all current local files to the remote repository, but first:
+
+List all files and folders that will be pushed.
+Confirm that all critical files and folders are present.
+Warn me if any files are missing or if a force-push will overwrite remote history.
+Only proceed after I confirm everything is correct."
