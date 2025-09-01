@@ -49,10 +49,11 @@ All character HTML files must strictly comply with this format. Any information 
 ## Copyright Footer (Standard)
 
 ```
-<footer>
-  <p>&copy; 2025 D&D Campaign Reference &mdash; Ruleset: D&D 5e (2014 version)</p>
-  <p style="font-size:0.9em; color:#888; margin-top:0.5em;">
-    Dungeons & Dragons and all related trademarks are property of Wizards of the Coast LLC. This is a fan site for personal use. All rights reserved.
-  </p>
-</footer>
+<footer>		
+	<p style="font-size:1.1em; color:#b22222; margin-top:0.1em; text-align:center; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">
+            &copy; 2025 D&D Campaign Reference; Ruleset: D&D 5e (2014 version)<br>
+			Dungeons & Dragons and all related trademarks are property of Wizards of the Coast LLC. <br>
+            This is a fan site for personal use. All rights reserved.
+		</p>
+	</footer>
 ```
