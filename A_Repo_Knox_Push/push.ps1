@@ -19,7 +19,7 @@ Copy-Item "$source\README.md" "$dest\README.md" -Force
 
 # Ensure .github/workflows exists and copy workflow file
 New-Item -ItemType Directory -Force -Path "$dest\.github\workflows" | Out-Null
-Copy-Item "$source\.github\workflows\deploy-to-gh-pages.yml" "$dest\.github\workflows\deploy-to-gh-pages.yml" -Force
+Copy-Item "$source\.github\workflows\deploy.yml" "$dest\.github\workflows\deploy.yml" -Force
 
 # 2. Change to the minimal web folder
 Set-Location $dest
@@ -35,6 +35,9 @@ git commit -m "Deploy minimal web files to main branch"
 
 # 5. Force push to main branch
 git push -u origin main --force
+
+# Return to the source directory after push
+Set-Location $source
 
 # NOTE:
 # - This will overwrite the main branch with ONLY the files in this folder.
