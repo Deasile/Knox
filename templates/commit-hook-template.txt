@@ -1,8 +1,0 @@
-# Commit Hook Template
-
-After each commit, answer:
-- What did you change?
-- Did you update documentation (chatlog.md, SOP.md, etc.)?
-- Any lessons learned or issues encountered?
-
-Add this to chatlog.md for traceability.
