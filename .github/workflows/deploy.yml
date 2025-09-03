@@ -29,9 +29,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan gh-pages
-          git rm -rf .
-          cp /tmp/gitignore.bak .gitignore || true
-          cp -r /tmp/github.bak .github || true
+          git add -A
+          git commit -m "Deploy to gh-pages: ${{ github.sha }}"
+          # Retry git push up to 3 times if it fails
+          n=0
+          until [ "$n" -ge 3 ]
+          do
+            git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages && break
+            n=$((n+1))
+            echo "git push failed, retrying in 5 seconds... ($n/3)"
+            sleep 5
+          done
+          if [ "$n" -eq 3 ]; then
+            echo "git push failed after 3 attempts. Exiting with error."
+            exit 1
           git add -A
           git commit -m "Deploy to gh-pages: ${{ github.sha }}"
           # Retry git push up to 3 times if it fails
