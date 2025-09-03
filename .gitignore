@@ -1,0 +1,24 @@
+# .gitignore to only allow files in E:\Git-Repos\D-DnD root
+
+# Ignore everything in all subfolders
+/*/
+
+# Ignore everything in the root by default
+/*
+
+# Do not ignore .gitignore itself
+!.gitignore
+
+# Do not ignore files in the root directory
+!index.html
+# Include these root folders
+!assets/
+!css/
+!html/
+!js/
+!.github/
+!.github/workflows/deploy.yml
+
+# Add any other root files you want to keep here
+
+# End of file
