@@ -6,3 +6,5 @@ This repository contains the minimal web files and resources for the Knox D&D ca
 - gh-pages branch: published site via GitHub Pages
 
 For deployment instructions and workflow details, see `.github/workflows/deploy-to-gh-pages.yml`.
+
+base home page location, https://deasile.github.io/Knox/index.html

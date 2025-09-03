@@ -6,50 +6,90 @@
   <title>Milicia Valen</title>
   <link rel="stylesheet" href="../css/main.css">
 </head>
-<body>
-  <header>
-    <h1>Milicia Valen</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="characters.html">Characters</a></li>
-        <li><a href="important-npcs.html">Important NPCs</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="lore-books.html">Lore Books</a></li>
-        <li><a href="house-rules.html">House Rules</a></li>
-        <li><a href="organizations.html">Organizations</a></li>
-        <li><a href="session-notes.html">Session Notes</a></li>
+<body style="min-height: 100vh; display: flex; flex-direction: column; background: url('../assets/images/CoverArt.png') no-repeat center 131px fixed; background-size: 100% 100%; background-repeat: no-repeat; background-color: #f8f8f8; margin: 0; padding: 0;">
+  <!-- ================= BEGIN HEADER ================= -->
+  <header
+    style="
+      text-align: center;
+      background: rgb(0, 0, 0);
+      border-radius: 0 0 0px 0px;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0);
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 1rem 2rem;
+      z-index: 100;
+    "
+  >
+    <h1 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">Milicia Valen</h1>
+    <nav style="text-align: center; width: 100%;">
+      <ul style="
+        display: inline-block;
+        float: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      ">
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="../index.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Home</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="characters.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Characters</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="important-npcs.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Important NPCs</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="locations.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Locations</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="lore-books.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Lore Books</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="house-rules.html" style="color: #b22222; font-weight: bold; text-decoration: none;">House Rules</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="organizations.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Organizations</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="session-notes.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Session Notes</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <img src="../assets/images/Milicia.png" alt="Milicia Valen" width="220" height="220" style="float:left; margin-right:2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2);">
-    <section>
-      <h2>Details</h2>
-      <ul>
-        <li><strong>Played by:</strong> Duwies</li>
-        <li><strong>Species:</strong> Half-Orc (elf and human lineage)</li>
-        <li><strong>Class & Level:</strong> Paladin 7 (Oath of Devotion) / Cleric 3 (Life Domain) — Level 10</li>
-        <li><strong>Background:</strong> Gate Warden</li>
-        <li><strong>Alignment:</strong> Chaotic Neutral</li>
-        <li><strong>Deity:</strong> Shaundakul / Gruumsh</li>
-        <li><strong>HP:</strong> 109 &nbsp; <strong>AC:</strong> 19 &nbsp; <strong>Initiative:</strong> +2 &nbsp; <strong>Inspiration:</strong> 2</li>
-        <li><strong>Coins:</strong> 2850 GP</li>
-        <li><a href="milicia-valen-sheet.html" class="sheet-link">View Milicia's Character Sheet</a></li>
-      </ul>
+  <!-- ================= END HEADER ================= -->
+
+  <!-- =============== BEGIN MAIN CONTENT =============== -->
+  <main class="character-main" style="margin: 10rem auto 1.5rem auto; max-width: 900px; min-height: 40px; flex: 1 0 auto;">
+  <!-- =============== BEGIN CHARACTER IMAGE =============== -->
+  <img src="../assets/images/Milicia.png" alt="Milicia Valen" width="220" height="220" style="float:left; margin-right:2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2);">
+  <!-- =============== END CHARACTER IMAGE =============== -->
+
+  <!-- =============== BEGIN DETAILS SECTION =============== -->
+  <section style="background:rgba(255,255,255,0.92); border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.10); padding:0.5em 0.7em; margin-top:0; margin-bottom:1.2em; width:620px; height:205px; float:left; overflow:auto;">
+    <h2 style="margin-top:0.1em; margin-bottom:0.3em; color:#b22222; font-size:1em; text-shadow:1px 1px 6px #e4e1ff, 0 2px 8px #b22222;">Details</h2>
+    <ul style="margin-top:0.1em; margin-bottom:0.3em; padding-left:1em; font-size:0.92em; line-height:1.18;">
+      <li><strong>Played by:</strong> Duwies &nbsp; <strong>Species:</strong> Half-Orc (elf and human lineage)</li>
+      <li><strong>Class & Level:</strong> Paladin 7 (Oath of Devotion) / Cleric 3 (Life Domain) — Level 10</li>
+      <li><strong>Background:</strong> Gate Warden &nbsp; <strong>Alignment:</strong> Chaotic Neutral</li>
+      <li><strong>Deity:</strong> Shaundakul / Gruumsh</li>
+      <li style="font-size:0.91em;">(Devoted to both mercy and might, balancing faith and tradition)</li>
+      <li><strong>HP:</strong> 109 &nbsp; <strong>AC:</strong> 19 &nbsp; <strong>Init:</strong> +2 &nbsp; <strong>Insp:</strong> 2</li>
+      <li><strong>Coins:</strong> 2850 GP</li>
+      <li><a href="milicia-valen-sheet.html" class="sheet-link">View Milicia's Character Sheet</a></li>
+    </ul>
+  </section>
+  
+<!-- =============== END DETAILS SECTION =============== -->
+<div style="clear: both;"></div>
     </section>
-    <section>
+   
+  <!-- =============== BEGIN APPEARANCE SECTION =============== -->
+  <section>
       <h2>Appearance</h2>
       <p>6' 2". Softly green skin, red-yellow eyes, elf lineage, 5 bands on each ear, family symbol, dark hair, chaotic and free.</p>
-    </section>
-    <section>
+  </section>
+  <!-- =============== END APPEARANCE SECTION =============== -->
+
+  <!-- =============== BEGIN CLASS BREAKDOWN SECTION =============== -->
+  <section>
       <h2>Class Breakdown</h2>
       <ul>
         <li><strong>Paladin 7</strong> (Oath of Devotion, Spellcasting: Charisma, Hit Die: 1d10, Spells Prepared: 2)</li>
         <li><strong>Cleric 3</strong> (Life Domain, Spellcasting: Wisdom, Hit Die: 1d8, Cantrips: 3, Spells Prepared: 1)</li>
       </ul>
-    </section>
-    <section>
+  </section>
+  <!-- =============== END CLASS BREAKDOWN SECTION =============== -->
+
+  <!-- =============== BEGIN PARTY RELATIONSHIPS & MENTIONS SECTION =============== -->
+  <section>
       <h2>Party Relationships & Mentions</h2>
       <ul>
         <li>Milicia is a steadfast member of the party, traveling with Feren Dax, Biggus Menethil, and Yo. Notable party connections and events include:</li>
@@ -63,11 +103,16 @@
           </ul>
         </li>
       </ul>
-    </section>
-    <section>
+  </section>
+  <!-- ======= END PARTY RELATIONSHIPS & MENTIONS SECTION ====== -->
+
+  <!-- =============== BEGIN BACKSTORY SECTION =============== -->
+  <section>
       <h2>Backstory</h2>
       <p>Milicia Valen is a Half-Orc torn between the discipline and faith of a Paladin and the raw power and tradition of her orcish heritage. As a Gate Warden, she is responsible for protecting the boundaries between realms and ensuring the safety of travelers. Her dual devotion to Shaundakul and Gruumsh gives her a unique perspective, balancing mercy with might. Milicia is fiercely protective of her friends and will go to great lengths to uphold her oaths.</p>
-    </section>
+  </section>
+
+    <!-- =============== END BACKSTORY SECTION =============== -->
     <section>
       <h2>Valen Family Lineage & History</h2>
       <ul>
@@ -78,6 +123,7 @@
         <li><strong>Present Day – Milicia Valen:</strong> Youngest daughter of the Valen line. Close with her sister Mea. Trained under her father and instructors in family duties. Lost her mother mysteriously at age five. During a refugee festival, their home was attacked. Milicia and Mea defended the children. Milicia failed to stop an enemy strike that killed a refugee boy. Desperate, she prayed to Shaundakul (lesser god of travel, winds, and portals). Her prayer was answered: the boy was revived and healed, though she was left with scars. Afterward, Milicia became a traveling paladin of the wind.</li>
       </ul>
     </section>
+    <!-- ========= END VALEN FAMILY LINEAGE & HISTORY SECTION ========= -->
     <section>
       <h2>Family</h2>
       <ul>
@@ -86,18 +132,21 @@
         <li>Siblings: Maxwell Cruz, Maggie Spencer, Maddison Lynn, Maximilian Ioan, Jaxson Nox, Macsen Pax, Mea Pearl, Morgan Tanix</li>
       </ul>
     </section>
+    <!-- =============== END FAMILY SECTION =============== -->
     <section>
       <h2>Equipment</h2>
       <ul>
         <li>[Equipment not listed in XML]</li>
       </ul>
     </section>
+    <!-- =============== END EQUIPMENT SECTION =============== -->
     <section>
       <h2>Skills & Proficiencies</h2>
       <ul>
         <li>[Skills not listed in XML]</li>
       </ul>
     </section>
+    <!-- =============== END SKILLS & PROFICIENCIES SECTION =============== -->
     <section>
       <h2>Features & Traits</h2>
       <ul>
@@ -117,6 +166,7 @@
         <li>Divine Domain (Life Domain)</li>
       </ul>
     </section>
+    <!-- =============== END FEATURES & TRAITS SECTION =============== -->
     <section>
       <h2>Bonds, Ideals & Flaws</h2>
       <ul>
@@ -125,12 +175,14 @@
         <li><strong>Flaws:</strong> Obsessed with work of caring and history of the gates. Gives away too much, often to one’s own detriment.</li>
       </ul>
     </section>
+    <!-- =============== END BONDS, IDEALS & FLAWS SECTION =============== -->
     <section>
       <h2>Noteworthy Items</h2>
       <ul>
         <li><strong>Gruumsh’s Boon:</strong> Pendant in the shape of a single open eye. Once per day, the wearer may complete a long rest in only 4 hours of light activity. The eye closes for 24 hours and reopens when the effect recharges.</li>
       </ul>
     </section>
+    <!-- =============== END NOTEWORTHY ITEMS SECTION =============== -->
     <section>
       <h2>Notable Abilities & Features</h2>
       <ul>
@@ -140,6 +192,7 @@
         <li>Gate Warden: Knowledge of portals and planar travel</li>
       </ul>
     </section>
+    <!-- =========== END NOTABLE ABILITIES & FEATURES SECTION =========== -->
     <section>
       <h2>Cultural Notes (Milicia’s Culture)</h2>
       <ul>
@@ -149,6 +202,7 @@
         <li><strong>Necklaces:</strong> No cultural meaning; usually worn for personal belief or expression.</li>
       </ul>
     </section>
+    <!-- =============== END CULTURAL NOTES SECTION =============== -->
     <section>
       <h2>Deities Referenced</h2>
       <ul>
@@ -156,6 +210,7 @@
         <li><a href="https://forgottenrealms.fandom.com/wiki/Gruumsh" target="_blank">Gruumsh</a>: Orc god, He Who Never Sleeps, symbolized by an ever-open eye.</li>
       </ul>
     </section>
+    <!-- =============== END DEITIES REFERENCED SECTION =============== -->
     <section>
       <h2>Companion: Tilrum the Stubborn (Faerie Dragon)</h2>
       <ul>
@@ -171,6 +226,7 @@
         <li><strong>Description:</strong> A faerie dragon is a cat-sized dragon with butterfly wings. It wears a sharp-toothed grin and expresses its delight by the twitching of its tail, its merriment fading only if it is attacked. The only warning of a faerie dragon's presence is a stifled giggle. The dragon stays out of sight, watching invisibly as its victims contend with its pranks. When its fun is done, the dragon might reveal itself, depending on the disposition of its "prey." A faerie dragon has a sharp mind, a fondness for treasure and good company, and a puckish sense of humor. Travelers can play to a faerie dragon's draconic nature by offering it "treasure" in the form of sweets, baked goods, and baubles in exchange for information or safe passage through its territory. Its scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</li>
       </ul>
     </section>
+    <!-- =============== END COMPANION SECTION =============== -->
     <section>
       <h2>Story Events & Personal Notes</h2>
       <ul>
@@ -182,6 +238,7 @@
         <li><strong>Stood as a bridge</strong> between orc and human communities</li>
       </ul>
     </section>
+    <!-- =========== END STORY EVENTS & PERSONAL NOTES SECTION =========== -->
     <section>
       <h2>Patron/Deity</h2>
       <ul>
@@ -189,13 +246,43 @@
         <li><strong>Gruumsh:</strong> Fuels her strength and determination</li>
       </ul>
     </section>
+    <!-- =============== END PATRON/DEITY SECTION =============== -->
   </main>
-  <footer>
-    <p>&copy; 2025 D&D Campaign Reference &mdash; Ruleset: D&D 5e (2014 version)</p>
-    <p style="font-size:0.9em; color:#888; margin-top:0.5em;">
-      Dungeons & Dragons and all related trademarks are property of Wizards of the Coast LLC. This is a fan site for personal use. All rights reserved.
-    </p>
+
+  <!-- =============== END MAIN CONTENT =============== -->
+  </main>
+
+  <!-- ================= BEGIN FOOTER ================= -->
+  <footer
+    style="
+      background: rgba(212, 21, 21, 0);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+      margin: 1.5rem auto;
+      max-width: 900px;
+      padding: 1rem 2rem;
+      flex-shrink: 0;
+    "
+  >
+    <div style="border: 2px solid #888; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.136); padding: 1em 1.5em; margin: 1.5em auto 0 auto; max-width: auto; background: rgba(240,240,240,0.15);">
+      <p
+        style="
+          font-size:1.1em;
+          color:#000000;
+          margin-top:-0em;
+          text-align:center;
+          text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;
+          margin-bottom: 0.2em;
+        "
+      >
+        &copy; 2025 D&amp;D Campaign Reference; Ruleset: D&amp;D 5e (2014 version)<br>
+        Dungeons &amp; Dragons and all related trademarks are property of Wizards of the Coast LLC.<br>
+        This is a fan site for personal use. All rights reserved.
+      </p>
+    </div>
   </footer>
+
+  <!-- ================= END FOOTER ================= -->
   <script src="../js/main.js"></script>
 </body>
 </html>

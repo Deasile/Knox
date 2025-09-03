@@ -6,30 +6,39 @@
   <title>Important NPCs</title>
   <link rel="stylesheet" href="../css/main.css">
   <link rel="icon" href="../assets/icons/favicon.ico">
+  <style>
+    html, body { overflow-x: hidden; }
+    /* Add any global keyframes or utility styles here */
+  </style>
 </head>
 <body
   style="
-    background: url('../assets/images/CoverArt.png') no-repeat center 10px fixed;
-    background-size: 80% auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('../assets/images/CoverArt.png') no-repeat center 120px fixed;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
   "
 >
-  <!-- ================= HEADER ================= -->
+  <!-- ================= BEGIN HEADER ================= -->
   <header
     style="
       text-align: center;
       background: rgb(0, 0, 0);
-      border-radius: 0 0 10px 10px;
-      box-shadow: 0 2px 8px rgba(96, 22, 22, 0);
-      width: auto;
-      position: sticky;
+      border-radius: 0 0 0px 0px;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0);
+      width: 100vw;
+      position: fixed;
+      top: 0;
       left: 0;
       right: 0;
-      top: 0;
       margin: 0;
-      padding: .5rem 1rem;
-      z-index: 10;
+      padding: 1rem 2rem;
+      z-index: 1000;
     "
   >
     <h1 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">Important NPCs</h1>
@@ -52,19 +61,20 @@
       </ul>
     </nav>
   </header>
-
-  <!-- =============== MAIN CONTENT =============== -->
+  <!-- ================= END HEADER ================= -->
+  <!-- =============== BEGIN MAIN CONTENT =============== -->
   <main
     style="
-      background: rgba(0, 0, 0, 0);
+      background: rgba(0,0,0,0);
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      margin: 1.5rem auto;
+      margin: 8rem auto 1.5rem auto;
       max-width: 900px;
       padding: 1rem 2rem;
+      flex: 1 0 auto;
     "
   >
-    <!-- Divine and Cosmic Hierarchy -->
+  <!-- =============== BEGIN DIVINE AND COSMIC HIERARCHY =============== -->
     <section>
       <div style="border: 3px solid #FFD700; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(255, 255, 224, 0.10);">
         <h2 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Divine and Cosmic Hierarchy</h2>
@@ -95,8 +105,10 @@
           <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> A pocket dimension created by Tsuki, stage for the Betrayal and the Birth of the Gods.</span>
         </p>
       </div>
-    </section>
-    <!-- Other Divine and Cosmic Figures -->
+  </section>
+    <!-- =============== END DIVINE AND COSMIC HIERARCHY SECTION =============== -->
+  <!-- =============== END DIVINE AND COSMIC HIERARCHY =============== -->
+  <!-- =============== BEGIN OTHER DIVINE AND COSMIC FIGURES =============== -->
     <section>
       <div style="border: 3px solid #00FFFF; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(224,255,255,0.10);">
         <h2 style="color: #00FFFF; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Other Divine and Cosmic Figures</h2>
@@ -123,8 +135,10 @@
           <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> A cosmic artifact that could reset reality. The party's actions averted catastrophe in the current cycle.</span>
         </p>
       </div>
-    </section>
-    <!-- Dax Family and Associates -->
+  </section>
+    <!-- =============== END OTHER DIVINE AND COSMIC FIGURES SECTION =============== -->
+  <!-- =============== END OTHER DIVINE AND COSMIC FIGURES =============== -->
+  <!-- =============== BEGIN DAX FAMILY AND ASSOCIATES =============== -->
     <section>
       <div style="border: 3px solid #FFA500; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(255, 228, 181, 0.10);">
         <h2 style="color: #FFA500; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Dax Family and Associates</h2>
@@ -151,8 +165,10 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!-- Notable Shopkeepers and Wanderers -->
+  </section>
+    <!-- =============== END DAX FAMILY AND ASSOCIATES SECTION =============== -->
+  <!-- =============== END DAX FAMILY AND ASSOCIATES =============== -->
+  <!-- =============== BEGIN NOTABLE SHOPKEEPERS AND WANDERERS =============== -->
     <section>
       <div style="border: 3px solid #00BFFF; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(173,216,230,0.10);">
         <h2 style="color: #00BFFF; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Notable Shopkeepers and Wanderers</h2>
@@ -167,9 +183,10 @@
           </li>
         </ul>
       </div>
-    </section>
   </section>
-    <!-- Dragon Village NPCs -->
+    <!-- =============== END NOTABLE SHOPKEEPERS AND WANDERERS SECTION =============== -->
+  <!-- =============== END NOTABLE SHOPKEEPERS AND WANDERERS =============== -->
+  <!-- =============== BEGIN DRAGON VILLAGE NPCS =============== -->
     <section>
       <div style="border: 3px solid #00FFFF; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(224,255,255,0.10);">
         <h2 style="color: #00FFFF; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Dragon Village NPCs (Planet Mogo, Realm of Creation)</h2>
@@ -220,7 +237,9 @@
           </li>
         </ul>
       </div>
-    </section>
+  </section>
+    <!-- =============== END DRAGON VILLAGE NPCS SECTION =============== -->
+  <!-- =============== END DRAGON VILLAGE NPCS =============== -->
     <!-- Milicia Valen's Direct Family -->
     <section>
       <div style="border: 3px solid #FF00FF; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(255,192,203,0.10);">
@@ -269,9 +288,9 @@
         </ul>
       </div>
     </section>
-   
+  <!-- =============== END MAIN CONTENT =============== -->
 
-    <!-- ================= FOOTER ================= -->
+  <!-- ================= BEGIN FOOTER ================= -->
     <footer
       style="
         background: rgba(212, 21, 21, 0);
@@ -299,5 +318,7 @@
           This is a fan site for personal use. All rights reserved.
         </p>
       </div>
+    </footer>
+    <!-- ================= END FOOTER ================= -->
   </body>
   </html>

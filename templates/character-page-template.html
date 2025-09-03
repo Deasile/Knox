@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    html, body { overflow-x: hidden; }
-    /* Add any global keyframes or utility styles here */
-  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Session Notes</title>
+  <title>[Character Name]</title>
   <link rel="stylesheet" href="../css/main.css">
 </head>
-<body style="min-height: 100vh; display: flex; flex-direction: column; background: url('../assets/images/CoverArt.png') no-repeat center 120px fixed; background-size: cover; background-repeat: no-repeat; background-color: #f8f8f8; margin: 0; padding: 0;">
+<body>
   <!-- ================= BEGIN HEADER ================= -->
   <header
     style="
@@ -25,12 +21,18 @@
       right: 0;
       margin: 0;
       padding: 1rem 2rem;
-      z-index: 1000;
+      z-index: 100;
     "
   >
-    <h1 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">Session Notes</h1>
+    <h1 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">[Character Name]</h1>
     <nav style="text-align: center; width: 100%;">
-      <ul style="display: inline-block; float: none; padding: 0; margin: 0; list-style: none;">
+      <ul style="
+        display: inline-block;
+        float: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      ">
         <li style="display: inline-block; margin: 0 0.5em;"><a href="../index.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Home</a></li>
         <li style="display: inline-block; margin: 0 0.5em;"><a href="characters.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Characters</a></li>
         <li style="display: inline-block; margin: 0 0.5em;"><a href="important-npcs.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Important NPCs</a></li>
@@ -43,18 +45,28 @@
     </nav>
   </header>
   <!-- ================= END HEADER ================= -->
-  <!-- =============== BEGIN MAIN CONTENT =============== -->
-  <main
-    style="background: rgba(0,0,0,0); border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin: 4.5rem auto 1.5rem auto; max-width: 900px; padding: 1rem 2rem; flex: 1 0 auto;"
-  >
-    <!-- =============== BEGIN RECENT EVENTS & SUMMARIES SECTION =============== -->
+  <!-- ================= BEGIN MAIN ================= -->
+  <main style="background: rgba(0, 0, 0, 0); border-radius: 10px; margin: 10rem auto 1.5rem auto; max-width: 900px; min-height: 40px; padding: 1rem 2rem; flex: 1 0 auto;">
+    <img src="[Image Path]" alt="[Character Name]" width="220" height="220" style="float:left; margin-right:2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2);">
+    <!-- =============== BEGIN DETAILS SECTION =============== -->
     <section>
-      <h2>Recent Events & Summaries</h2>
-      <!-- Session notes content will go here -->
+      <h2>Details</h2>
+      <ul>
+        <li><strong>Played by:</strong> [Player]</li>
+        <li><strong>Species:</strong> [Species]</li>
+        <li><strong>Class & Level:</strong> [Class & Level]</li>
+        <li><strong>Background:</strong> [Background]</li>
+        <li><strong>Alignment:</strong> [Alignment]</li>
+        <li><strong>HP:</strong> [HP] &nbsp; <strong>AC:</strong> [AC] &nbsp; <strong>Initiative:</strong> [Initiative] &nbsp; <strong>Inspiration:</strong> [Inspiration]</li>
+        <li><strong>Coins:</strong> [Coins]</li>
+        <li><a href="[Sheet Link]" class="sheet-link">View [Character Name]'s Character Sheet</a></li>
+      </ul>
+      <div style="margin-bottom:2rem;"></div>
     </section>
-    <!-- =============== END RECENT EVENTS & SUMMARIES SECTION =============== -->
+    <!-- =============== END DETAILS SECTION =============== -->
+    <!-- Additional sections go here -->
   </main>
-  <!-- =============== END MAIN CONTENT =============== -->
+  <!-- ================= END MAIN ================= -->
   <!-- ================= BEGIN FOOTER ================= -->
   <footer
     style="

@@ -18,8 +18,7 @@ All character HTML files must strictly comply with this format. Any information 
   - Background
   - Alignment
   - Deity/Patron
-  - HP, AC, Initiative, Inspiration, Coins
-  - Link to full character sheet
+  - HP, AC, Initiative, Inspiration
 - **Appearance** (optional)
 - **Class Breakdown** (if multi-classed)
 - **Backstory**

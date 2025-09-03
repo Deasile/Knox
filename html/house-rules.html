@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    html, body { overflow-x: hidden; }
+    /* Add any global keyframes or utility styles here */
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>House Rules</title>
   <link rel="stylesheet" href="../css/main.css">
 </head>
-<body>
-  <header>
-    <h1>House Rules</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="characters.html">Characters</a></li>
-        <li><a href="important-npcs.html">Important NPCs</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="lore-books.html">Lore Books</a></li>
-        <li><a href="house-rules.html">House Rules</a></li>
-        <li><a href="organizations.html">Organizations</a></li>
-        <li><a href="session-notes.html">Session Notes</a></li>
+<body style="min-height: 100vh; display: flex; flex-direction: column; background: url('../assets/images/CoverArt.png') no-repeat center 120px fixed; background-size: cover; background-repeat: no-repeat; background-color: #f8f8f8; margin: 0; padding: 0;">
+  <!-- ================= BEGIN HEADER ================= -->
+  <header
+    style="
+      text-align: center;
+      background: rgb(0, 0, 0);
+      border-radius: 0 0 0px 0px;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0);
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 1rem 2rem;
+      z-index: 1000;
+    "
+  >
+    <h1 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">House Rules</h1>
+    <nav style="text-align: center; width: 100%;">
+      <ul style="display: inline-block; float: none; padding: 0; margin: 0; list-style: none;">
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="../index.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Home</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="characters.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Characters</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="important-npcs.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Important NPCs</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="locations.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Locations</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="lore-books.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Lore Books</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="house-rules.html" style="color: #b22222; font-weight: bold; text-decoration: none;">House Rules</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="organizations.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Organizations</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="session-notes.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Session Notes</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
+  <!-- ================= END HEADER ================= -->
+  <!-- =============== BEGIN MAIN CONTENT =============== -->
+  <main style="background: rgba(0,0,0,0); border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin: 8.5rem auto 1.5rem auto; max-width: 900px; padding: 1rem 2rem; flex: 1 0 auto;">
+    <div class="rules-callout">
+      Welcome to the House Rules! These custom rules and guidelines help shape our campaign and keep things fun, fair, and creative. Please review them before each session.
+    </div>
+    <!-- =============== BEGIN FANTASY GROUNDS SETUP SECTION =============== -->
+    <section class="rules-card">
       <h2>Fantasy Grounds Setup</h2>
       <ul>
         <li>Program: Fantasy Grounds Unity (<a href="https://www.fantasygrounds.com/" target="_blank">link</a>)</li>
         <li>You only need the free version (DM has a license)</li>
         <li>Campaign Name: "Knox"</li>
-        <li>Password: a</li>
+  <li>Password: <span style="letter-spacing:0.2em;">[hidden]</span></li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN CHARACTER CREATION SECTION =============== -->
+    <section class="rules-card">
       <h2>Character Creation</h2>
       <ul>
         <li>Start at level 0</li>
@@ -43,19 +71,23 @@
         <li>Race and class limited to Fantasy Grounds options (ask for exceptions)</li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN INSPIRATION POINTS SECTION =============== -->
+    <section class="rules-card">
       <h2>Inspiration Points</h2>
       <ul>
         <li>Everyone starts with 3 Inspiration Points</li>
         <li>1 = Re-roll anything</li>
         <li>2 = +1 to roll (can turn a 19 into a Nat 20)</li>
         <li>3 = +2 to roll (can turn an 18 into a Nat 20)</li>
-        <li>4 = +3 to roll (can turn a 17 into a Nat 20)</li>
+        <li>4 = +3 to roll (can turn an 17 into a Nat 20)</li>
         <li>5 = Nat 20 equivalent</li>
       </ul>
       <p><em>Old Rule (for posterity):</em> At the start of each session, you have at least 1 Inspiration Point. If you have less than 3, you may roll to match/beat the DM's d20 to get up to 3. Points are for helping the team tell the story—use them!</p>
     </section>
-    <section>
+
+    <!-- =============== BEGIN SETTING & SOCIETY SECTION =============== -->
+    <section class="rules-card">
       <h2>Setting & Society</h2>
       <ul>
         <li>"Ideal" society: no need, no want, no war, no conflict</li>
@@ -63,7 +95,9 @@
         <li>Base languages: Common and Common-Coded</li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN PVP & SOCIAL RULES SECTION =============== -->
+    <section class="rules-card">
       <h2>PVP & Social Rules</h2>
       <ul>
         <li>Harming others is not part of your society (may change with character development)</li>
@@ -77,7 +111,9 @@
         </li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN YEAR 1: CHARACTER CREATION & TEAM BUILDING SECTION =============== -->
+    <section class="rules-card">
       <h2>Year 1: Character Creation & Team Building</h2>
       <ul>
         <li>"Class" = activity to gain stats</li>
@@ -87,40 +123,74 @@
         <li>Inspiration can always be used to re-roll anything</li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN LEVEL PROGRESSION SECTION =============== -->
+    <section class="rules-card">
       <h2>Level Progression (Undecided)</h2>
       <ul>
         <li>Option 1: 1st Year (0-1), 2nd (1-5), 3rd (5-10), 4th (10-15), 20+ = adventure</li>
         <li>Option 2: 1st Year (0-5), 2nd (5-10), 3rd (10-15), 4th (15-20), 20+ = adventure</li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN BIRTHDAY WISH SECTION =============== -->
+    <section class="rules-card">
       <h2>Birthday Wish</h2>
       <p>Players get a birthday "wish" for their character (retroactive to session 0 or join date).</p>
     </section>
-    <section>
+
+    <!-- =============== BEGIN META-GAMING & CHECKS SECTION =============== -->
+    <section class="rules-card">
       <h2>Meta-Gaming & Checks</h2>
       <ul>
         <li>If a player says their bonus aloud (e.g., "I have +8 to investigation"), half the bonus is added to the check's difficulty (to discourage meta-gaming)</li>
       </ul>
     </section>
-    <section>
+
+    <!-- =============== BEGIN OPTIONAL RULE: INITIATIVE SWAPPING SECTION =============== -->
+    <section class="rules-card">
       <h2>Optional Rule: Initiative Swapping</h2>
       <p>If player icons are adjacent, you may swap initiative rolls (including bonuses).</p>
     </section>
-    <section>
+
+    <!-- =============== BEGIN CRITICAL ATTACKS SECTION =============== -->
+    <section class="rules-card">
       <h2>Critical Attacks</h2>
       <p>Fantasy Grounds handles critical hits perfectly as it is.</p>
       <p><em>Previous homebrew rule (for posterity):</em> If crit damage is less than max dice roll, add max dice (no bonuses). If crit damage is above max, double the total (including bonuses).</p>
     </section>
   </main>
-  <footer>
-    <p style="font-size:1.1em; color:#b22222; margin-top:-1em; text-align:center; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">
-      &copy; 2025 D&D Campaign Reference; Ruleset: D&D 5e (2014 version)<br>
-      Dungeons & Dragons and all related trademarks are property of Wizards of the Coast LLC. <br>
-      This is a fan site for personal use. All rights reserved.
-    </p>
+  <!-- =============== END MAIN CONTENT =============== -->
+  <!-- ================= BEGIN FOOTER ================= -->
+  <footer
+    style="
+      background: rgba(212, 21, 21, 0);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+      margin: 1.5rem auto;
+      max-width: 900px;
+      padding: 1rem 2rem;
+      flex-shrink: 0;
+    "
+  >
+    <div style="border: 2px solid #888; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.136); padding: 1em 1.5em; margin: 1.5em auto 0 auto; max-width: auto; background: rgba(240,240,240,0.15);">
+      <p
+        style="
+          font-size:1.1em;
+          color:#000000;
+          margin-top:-0em;
+          text-align:center;
+          text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;
+          margin-bottom: 0.2em;
+        "
+      >
+        &copy; 2025 D&amp;D Campaign Reference; Ruleset: D&amp;D 5e (2014 version)<br>
+        Dungeons &amp; Dragons and all related trademarks are property of Wizards of the Coast LLC.<br>
+        This is a fan site for personal use. All rights reserved.
+      </p>
+    </div>
   </footer>
+  <!-- ================= END FOOTER ================= -->
   <script src="../js/main.js"></script>
 </body>
 </html>

@@ -7,84 +7,66 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="icon" href="../assets/icons/favicon.ico">
   <style>
+    html, body {
+      min-height: 100vh;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
     body {
-      background: url('../assets/images/CoverArt.png') no-repeat center 10px fixed;
-      background-size: 80% auto;
-      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      background: url('../assets/images/CoverArt.png') no-repeat center 120px fixed;
+      background-size: cover;
       background-color: #f8f8f8;
-    }
-    header {
-      background: rgba(255,255,255,0.75);
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      margin: 1.5rem auto;
-      max-width: 900px;
-      padding: 1rem 2rem;
-    }
-    main {
-      background: rgba(255,255,255,0.00);
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      margin: 1.5rem auto;
-      max-width: 900px;
-      padding: 1rem 2rem;
-    }
-    h2 {
-      text-align: center;
-      color: #000000;
-      font-size: 2.2rem;
-      font-weight: bold;
-      text-shadow: 0 3px 8px rgba(245, 243, 243, 0.22);
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    footer {
-      background: rgba(255,255,255,0.75);
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      margin: 1.5rem auto;
-      max-width: 900px;
-      padding: 1rem 2rem;
-      color: #000;
-    }
-    header h1 {
-      text-align: center;
-      color: #b22222;
-      font-size: 2.1rem;
-      font-weight: bold;
-      margin-top: 1.2rem;
-      margin-bottom: 1.2rem;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.10);
-    }
-    nav a {
-      color: #b22222;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Player Characters & Notable NPCs</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="characters.html">Characters</a></li>
-        <li><a href="important-npcs.html">Important NPCs</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="lore-books.html">Lore Books</a></li>
-        <li><a href="house-rules.html">House Rules</a></li>
-        <li><a href="organizations.html">Organizations</a></li>
-        <li><a href="session-notes.html">Session Notes</a></li>
+  <!-- ================= BEGIN HEADER ================= -->
+  <header
+    style="
+      text-align: center;
+      background: rgb(0, 0, 0);
+      border-radius: 0 0 0px 0px;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0);
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 1rem 2rem;
+      z-index: 1000;
+    "
+  >
+    <h1 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">Characters</h1>
+    <nav style="text-align: center; width: 100%;">
+      <ul style="
+        display: inline-block;
+        float: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      ">
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="../index.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Home</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="characters.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Characters</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="important-npcs.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Important NPCs</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="locations.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Locations</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="lore-books.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Lore Books</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="house-rules.html" style="color: #b22222; font-weight: bold; text-decoration: none;">House Rules</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="organizations.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Organizations</a></li>
+        <li style="display: inline-block; margin: 0 0.5em;"><a href="session-notes.html" style="color: #b22222; font-weight: bold; text-decoration: none;">Session Notes</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>Player Characters</h2>
+  <!-- ================= END HEADER ================= -->
+
+  <!-- ================= BEGIN MAIN CONTENT ================= -->
+  <main style="background: rgba(0,0,0,0); border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin: 10rem auto 1.5rem auto; max-width: 900px; padding: 1rem 2rem; flex: 1 0 auto;">
+    <!-- ================= BEGIN PLAYER CHARACTERS SECTION ================= -->
+    <section style="text-align:center;">
+      <h2 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">Player Characters</h2>
       <div class="character-grid">
         <div class="character-row">
           <a class="character-card" href="biggus-menethil.html" style="background:#23272e; color:#fff; text-shadow:2px 2px 8px #000000, 0 2px 8px #b22222;">
@@ -97,7 +79,6 @@
                 <li>Class(s): Ranger (lvl) / Rogue (lvl)</li>
                 <li>Background: Rune Carver</li>
               </ul>
-              
             </div>
           </a>
           <a class="character-card" href="milicia-valen.html" style="background:#2e2323; color:#fff8e1; text-shadow:2px 2px 8px #000000, 0 2px 8px #8b4513;">
@@ -116,7 +97,6 @@
                   </ul>
                 </li>
               </ul>
-              
             </div>
           </a>
         </div>
@@ -131,7 +111,6 @@
                 <li>Class(s): Warlock (lvl) / Fighter (lvl)</li>
                 <li>Background: Criminal</li>
               </ul>
-              
             </div>
           </a>
           <a class="character-card" href="yo.html" style="background:#23322e; color:#e0ffe0; text-shadow:2px 2px 8px #000000, 0 2px 8px #006400;">
@@ -144,23 +123,44 @@
                 <li>Class(s): Druid (lvl) / Fighter (lvl)</li>
                 <li>Background: Folk Hero</li>
               </ul>
-              
             </div>
           </a>
         </div>
       </div>
     </section>
-    <section>
-
-    </section>
+    <!-- ================= END PLAYER CHARACTERS SECTION ================= -->
   </main>
-  <footer>
-    <p style="font-size:1.1em; color:#b22222; margin-top:-1em; text-align:center; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">
-      &copy; 2025 D&D Campaign Reference; Ruleset: D&D 5e (2014 version)<br>
-      Dungeons & Dragons and all related trademarks are property of Wizards of the Coast LLC. <br>
-      This is a fan site for personal use. All rights reserved.
-    </p>
+  <!-- ================= END MAIN CONTENT ================= -->
+  <!-- ================= BEGIN FOOTER ================= -->
+  <footer
+    style="
+      background: rgba(212, 21, 21, 0);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+      margin: 1.5rem auto;
+      max-width: 900px;
+      padding: 1rem 2rem;
+      flex-shrink: 0;
+    "
+  >
+    <div style="border: 2px solid #888; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.136); padding: 1em 1.5em; margin: 1.5em auto 0 auto; max-width: auto; background: rgba(240,240,240,0.15);">
+      <p
+        style="
+          font-size:1.1em;
+          color:#000000;
+          margin-top:-0em;
+          text-align:center;
+          text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;
+          margin-bottom: 0.2em;
+        "
+      >
+        &copy; 2025 D&amp;D Campaign Reference; Ruleset: D&amp;D 5e (2014 version)<br>
+        Dungeons &amp; Dragons and all related trademarks are property of Wizards of the Coast LLC.<br>
+        This is a fan site for personal use. All rights reserved.
+      </p>
+    </div>
   </footer>
+  <!-- ================= END FOOTER ================= -->
   <script src="../js/main.js"></script>
 </body>
 </html>

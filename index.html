@@ -13,37 +13,42 @@
 	100% { background-position: 100% 50%; }
 }
 </style>
+<style>
+html, body {
+	overflow-x: hidden;
+}
+</style>
 <body
 	style="
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
-		background: url('assets/images/CoverArt.png') no-repeat center 10px fixed;
-		background-size: 80% auto;
+		background: url('assets/images/CoverArt.png') no-repeat center 131px fixed;
+		background-size: 100% 100%;
 		background-repeat: no-repeat;
 		background-color: #f8f8f8;
 		margin: 0;
 		padding: 0;
 	"
 >
-	<!-- ================= HEADER ================= -->
+	<!-- ================= BEGIN HEADER ================= -->
 		<header
 			style="
-				text-align: center;
-				background: rgb(0, 0, 0);
-				border-radius: 0 0 0px 0px;
-				box-shadow: 0 2px 8px rgba(255, 255, 255, 0);
-				width: 100vw;
-				position: relative;
-				left: 0;
-				right: 0;
-				top: 0;
-				margin: 0;
-				padding: 1rem 2rem;
-				z-index: 10;
+				   text-align: center;
+				   background: rgb(0, 0, 0);
+				   border-radius: 0 0 0px 0px;
+				   box-shadow: 0 2px 8px rgba(255, 255, 255, 0);
+				   width: 100vw;
+				   position: fixed;
+				   top: 0;
+				   left: 0;
+				   right: 0;
+				   margin: 0;
+				   padding: 1rem 2rem;
+				   z-index: 100;
 			"
 		>
-		<h1 style="color: #b22222;">Welcome to the D&D Campaign Reference</h1>
+		<h1 style="color: #FFD700;">Welcome to the D&D Campaign Reference</h1>
 			<nav style="text-align: center; width: 100%;">
 				<ul style="
 					display: inline-block;
@@ -65,21 +70,22 @@
 				</ul>
 			</nav>
 	</header>
+	<!-- ================= END HEADER ================= -->
 
-	<!-- =============== MAIN CONTENT =============== -->
+	<!-- ================= BEGIN MAIN CONTENT ================= -->
 	<main
 		style="
 			background: rgba(0, 0, 0, 0);
 			border-radius: 10px;
-			
-			margin: 1.5rem auto;
+		margin: 10rem auto 1.5rem auto;
 			max-width: 900px;
 			min-height: 40px;
 			padding: 1rem 2rem;
 			flex: 1 0 auto;
 		"
 	>
-		<section style="text-align:center; margin-top:-3rem;">
+	<!-- ================= BEGIN INTRO SECTION ================= -->
+	<section style="text-align:center; margin-top:-3rem;">
 			<h2 style="color: #e40a0a; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">Adventures Await!</h2>
 			<div
 				style="
@@ -110,8 +116,10 @@
 					This site is your reference for the ongoing Dungeons & Dragons campaign set in the city of Yusaf'hed and beyond. Meet the current party: Biggus Menethil, Feren Dax, Milicia Valen, and Yo. Discover the stories of the Velvet Whisper Velistra Dax, the Mage-breaker Torri Spellguard, and more. Explore a world where beauty is a weapon, magic can be broken, and every character has a secret worth uncovering. Use the navigation above to meet the cast, learn the house rules, and dive into the evolving lore and session notes. Adventures, mysteries, and legends await, start exploring!
 				</p>
 			</div>
-		</section>
-		<section style="max-width:700px; margin:2rem auto;">
+	</section>
+	<!-- ================= END INTRO SECTION ================= -->
+	<!-- ================= BEGIN QUICK LINKS SECTION ================= -->
+	<section style="max-width:700px; margin:2rem auto;">
 		  <div style="border: 3px solid #ff0000; border-radius: 14px; box-shadow: 0 4px 16px #0008; padding: 1.2em 1.5em; margin-bottom: 2em; background: rgba(255, 228, 181, 0.10);">
 			<h3 style="text-align:center; color: #ff0000; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Quick Links</h3>
 			<div
@@ -231,10 +239,12 @@
 					"
 				>Session Notes</a>
 			</div>
-		</section>
+	</section>
+	<!-- ================= END QUICK LINKS SECTION ================= -->
 	</main>
+	<!-- ================= END MAIN CONTENT ================= -->
 
-	<!-- ================= FOOTER ================= -->
+	<!-- ================= BEGIN FOOTER ================= -->
 	<footer
 		style="
 			background: rgba(212, 21, 21, 0);
@@ -262,5 +272,7 @@
         This is a fan site for personal use. All rights reserved.
       </p>
     </div>
+</footer>
+<!-- ================= END FOOTER ================= -->
 </body>
 </html>

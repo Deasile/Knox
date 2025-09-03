@@ -1,0 +1,12 @@
+{
+  // Place your snippets for CSS here. Each snippet is defined under a snippet name.
+  "SOP Main Margin": {
+    "prefix": "sop-main-margin",
+    "body": [
+      "main {",
+      "  margin-top: 80px; /* Match header height for SOP compliance */",
+      "}"
+    ],
+    "description": "Insert SOP-compliant main margin CSS."
+  }
+}

@@ -1,5 +1,7 @@
+# <!-- ================= BEGIN GOODSTYLES DOCUMENT ================= -->
 # GoodStyles.md
 
+# <!-- ================= BEGIN USER COLOR SCHEMES ================= -->
 # START User defined color schemes for final reproduction
 **Divine and Cosmic Hierarchy** Section
 - <h2 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000;">TextHere</h2>
@@ -60,9 +62,11 @@ Mea Pearl: Tiefling, warlock.
 Morgan Tanix: Monk.
 
 # END User defined color schemes for final reproduction
+# <!-- ================= END USER COLOR SCHEMES ================= -->
 
 
 
+<!-- ================= BEGIN COLOR PALETTE REVIEWS ================= -->
 ## Gold/Yellow on Dark (7/10)
 
 - **Headings:**
@@ -188,6 +192,8 @@ Morgan Tanix: Monk.
 - Rating: 8/10
 
 ## Light Gray/Silver on Dark (5/10)
+<!-- ================= END COLOR PALETTE REVIEWS ================= -->
+<!-- ================= END GOODSTYLES DOCUMENT ================= -->
 
 - **Headings:**
   - `color: #E0E0E0;`
