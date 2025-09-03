@@ -1,0 +1,73 @@
+# .gitignore (Refactored for GitHub Repository)
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore environment and config files
+.env
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore node and build output
+node_modules/
+dist/
+build/
+
+# Ignore backup, archive, and non-essential folders
+_Archive/
+.snapshots/
+xfr/
+ChatExtract/
+Story/
+Character sheets/
+docs/
+
+# Ignore resource file types not needed in repo
+*.tmp
+*.bak
+*.psd
+*.xcf
+
+# Ignore local server scripts and workflow files not needed in repo
+run_local_server.py
+run_local_server.bat
+
+# Ignore project-specific safety and workflow files
+DATA_SAFETY_AND_GIT_WORKFLOW.md
+Verification.md
+
+# Ignore everything by default
+/*
+
+# Do not ignore essential project files and folders
+!A_Repo_Knox_Push/
+!A_Repo_Knox_Push/**
+!assets/
+!assets/**
+!css/
+!css/**
+!js/
+!js/**
+!html/
+!html/**
+!README.md
+
+# Do not ignore index.html in allowed folders
+!index.html
+!A_Repo_Knox_Push/index.html
+!html/index.html
+
+# Do not ignore .github workflows
+!.github/
+!.github/**
+
+# End of file
