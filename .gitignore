@@ -16,6 +16,8 @@
 !css/
 !html/
 !js/
+!.github/
+!.github/workflows/deploy.yml
 
 # Add any other root files you want to keep here
 
