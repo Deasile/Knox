@@ -9,6 +9,29 @@
   <style>
     html, body { overflow-x: hidden; }
     /* Add any global keyframes or utility styles here */
+    .npc {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+    .npc-details {
+      display: none;
+      position: absolute;
+      left: 50px;
+      top: 0;
+      background: #222;
+      color: #FFD700;
+      padding: 0.5em 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #0008;
+      z-index: 10;
+      min-width: 220px;
+      max-width: 350px;
+      font-size: 0.95em;
+    }
+    .npc:hover .npc-details {
+      display: block;
+    }
   </style>
 </head>
 <body
@@ -80,24 +103,39 @@
         <h2 style="color: #FFD700; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Divine and Cosmic Hierarchy</h2>
         <ul>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Tsuki (The Mother of All Creation):</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> The primordial being, creator of Aurelia and Selene, source of all existence.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Tsuki (The Mother of All Creation):</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> The primordial being, creator of Aurelia and Selene, source of all existence.</span>
+              <div class="npc-details">The primordial being, source of all matter, energy, and existence. Creator of Aurelia (Priestess of the Sun) and Selene (Priestess of the Moon). Grandmother of Eldricus and Sucirdle. Designed the Golden City as a pocket dimension and sanctuary for her creations.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Selene (Priestess of the Moon):</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> First creation of Tsuki, guardian of night and tranquility, mother of Eldricus.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Selene (Priestess of the Moon):</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> First creation of Tsuki, guardian of night and tranquility, mother of Eldricus.</span>
+              <div class="npc-details">First creation of Tsuki, guardian of night and tranquility, mother of Eldricus. Shared a transcendent bond with Aurelia.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Aurelia (Priestess of the Sun):</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> First creation of Tsuki, guardian of light and warmth, mother of Sucirdle.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Aurelia (Priestess of the Sun):</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> First creation of Tsuki, guardian of light and warmth, mother of Sucirdle.</span>
+              <div class="npc-details">First creation of Tsuki, guardian of light and warmth, mother of Sucirdle. Shared a transcendent bond with Selene.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Eldricus (The Headmaster, The First One):</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Son of Selene, embodiment of order, creation, and cosmic law.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Eldricus (The Headmaster, The First One):</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Son of Selene, embodiment of order, creation, and cosmic law.</span>
+              <div class="npc-details">Son of Selene, third being to exist, embodiment of order, creation, and cosmic law, born moments before Sucirdle. Bringer of kindness, love, and positive change to gods and mortals. Central to the campaign's cosmic lore.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Sucirdle:</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Son of Aurelia, embodiment of chaos and discord, leader of the Twelve rebellious gods.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Sucirdle:</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Son of Aurelia, embodiment of chaos and discord, leader of the Twelve rebellious gods.</span>
+              <div class="npc-details">Son of Aurelia, a brother of sorts to Eldricus, embodiment of chaos and discord, born moments after Eldricus. Master manipulator, leader of the Twelve rebellious gods, orchestrator of the betrayal and the Battle of Sucirdle's Betrayal.</div>
+            </div>
           </li>
         </ul>
         <p style="margin-bottom: 0;">
@@ -114,20 +152,32 @@
         <h2 style="color: #00FFFF; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Other Divine and Cosmic Figures</h2>
         <ul>
           <li>
-            <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Ceridwen:</strong>
-            <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> Goddess of wisdom and learning, keeper of the Library of Ascendia.</span>
+            <div class="npc">
+              <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Ceridwen:</strong>
+              <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> Goddess of wisdom and learning, keeper of the Library of Ascendia.</span>
+              <div class="npc-details">Goddess of wisdom and learning in Seraphia, reigning over the sacred Library of Ascendia. Her unending quest for enlightenment drives her to collect all knowledge from living worlds and beyond. Though cursed by the 12 ancient gods, she bestows wisdom upon seekers through her vast repository, shaping the minds of those who venture within its hallowed halls.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Alobal:</strong>
-            <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> Goddess of joy, freedom, and creative chaos. Patron of Feren Dax.</span>
+            <div class="npc">
+              <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Alobal:</strong>
+              <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> Goddess of joy, freedom, and creative chaos. Patron of Feren Dax.</span>
+              <div class="npc-details">Mysterious goddess of joy, freedom, and creative chaos. Patron of Feren Dax, often appearing in both male and female forms. Alobal's influence is felt through inspiration, luck, and unexpected boons. Her motives are enigmatic, and she is known for rewarding mortals who act selflessly or with boldness.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Al (Alobal's Male Avatar):</strong>
-            <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> The male avatar of Alobal, appears to guide or test the party.</span>
+            <div class="npc">
+              <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Al (Alobal's Male Avatar):</strong>
+              <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> The male avatar of Alobal, appears to guide or test the party.</span>
+              <div class="npc-details">The male avatar of the deity Alobal, appears to guide or test the party.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Garamith (The Old Man):</strong>
-            <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> Once a Lovac to Cappo, a dragon player in Xorvintaal. Obsessed with forbidden knowledge and the urn.</span>
+            <div class="npc">
+              <strong style="color:#00FFFF; text-shadow:2px 2px 8px #000;">Garamith (The Old Man):</strong>
+              <span style="color:#1DE9B6; text-shadow:2px 2px 8px #000;"> Once a Lovac to Cappo, a dragon player in Xorvintaal. Obsessed with forbidden knowledge and the urn.</span>
+              <div class="npc-details">Once a Lovac (head servant) to Cappo (Brimstone), a dragon player in the ancient game of Xorvintaal. Garamith is an unwitting pawn in the cosmic contest between dragons. As a Lovac, he served Cappo, but his actions and ambitions were manipulated by higher powers within the game. His obsession with forbidden knowledge and the urn led to tragedy, including the death and transformation of Solaris Nova. The party is being groomed to become Lovac to Chendarixanath (Chen), another dragon player.</div>
+            </div>
           </li>
         </ul>
         <p style="margin-bottom: 0;">
@@ -144,24 +194,39 @@
         <h2 style="color: #FFA500; text-shadow: 2px 2px 8px #000000, 0 2px 8px #000000; margin-top: 0;">Dax Family and Associates</h2>
         <ul>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Velistra Dax:</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Matron of the Silken Phoenix, Feren Dax's mother.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Velistra Dax:</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Matron of the Silken Phoenix, Feren Dax's mother.</span>
+              <div class="npc-details">Matron of the Silken Phoenix, wise, respected, and Feren Dax's mother. Solaris Nova was her beloved partner in life.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Solaris Nova:</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Once human, partner to Velistra Dax, reborn in a Warforged body.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Solaris Nova:</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Once human, partner to Velistra Dax, reborn in a Warforged body.</span>
+              <div class="npc-details">Once a human named Solaris, partner in life to Velistra Dax. Murdered by Garamith while he sought a powerful urn. Solaris's soul was later reborn in an ancient Warforged body.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Zara:</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Feren Dax's sister, involved in family and campaign events.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Zara:</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Feren Dax's sister, involved in family and campaign events.</span>
+              <div class="npc-details">Sibling to Feren Dax, involved in family and campaign events.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Torri Spellguard:</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Feren Dax's childhood friend, city guard pillar.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Torri Spellguard:</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Feren Dax's childhood friend, city guard pillar.</span>
+              <div class="npc-details">Feren Dax's childhood friend, known for loyalty and magical resistance. Now a city guard pillar.</div>
+            </div>
           </li>
           <li>
-            <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Cyndara Crossfire:</strong>
-            <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Feren Dax's ex-girlfriend, now a friend and ally.</span>
+            <div class="npc">
+              <strong style="color:#FFD700; text-shadow:2px 2px 8px #000;">Cyndara Crossfire:</strong>
+              <span style="color:#FFFF66; text-shadow:2px 2px 8px #000;"> Feren Dax's ex-girlfriend, now a friend and ally.</span>
+              <div class="npc-details">Former romantic interest of Feren Dax, remains a friend and ally.</div>
+            </div>
           </li>
         </ul>
       </div>
